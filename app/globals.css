@@ -58,11 +58,11 @@ body {
     .carousel-item {
         @apply w-[200px] h-[250px] rounded-md bg-[#95bcd6] overflow-hidden mr-[10px] mt-[70px] inline-block cursor-pointer transition-all duration-300 origin-top-left relative
     }
+    .carousel-item__img {
+      @apply w-[200px] h-[250px] object-cover
+         
+    }
   }
-  
-  .carousel {
-      -webkit-box-sizing: border-box;
-     }
  
   
   .carousel-item:hover ~ .carousel-item {
@@ -80,12 +80,7 @@ body {
     opacity: 1;
   }
   
-  .carousel-item__img {
-    width: 200px;
-    height: 250px;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
+ 
   
   .carousel-item__details {
     background: -webkit-gradient(
