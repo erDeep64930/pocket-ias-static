@@ -6,9 +6,9 @@ export const PrelimsCategories = () => {
     <div relative className='relative w-11/12 max-w-[1080px] mx-auto pt-4'>
       <h1 className='text-3xl p-5'>Prelims Categories</h1>
 
-      <div className='border flex border-pink-600  ' >
+      <div className=' flex sm:flex-col mt-1 mb-1' >
         {/* left */}
-        <div className='border border-yellow-600 bg-pink-300 w-[35%] h-1/2' >
+        <div className='sm:w-full w-[35%] rounded-lg shadow-xl' >
           <h3 className='text-center'>Indian Economy</h3>
           <h2 className='font-bold text-xl text-center'>GST: Removing Cascading Effects</h2>
 
@@ -49,13 +49,27 @@ export const PrelimsCategories = () => {
 
           </div>
           <div className='w-[80%] h-1 bg-slate-400 items-center justify-center ml-8'></div>
+          {/* card layer 4 */}
+          <div className='flex justify-between items-center p-4'>
+
+            <div>
+              <Image src="/ver4.png" alt="" width={50} height={50} />
+            </div>
+            <div>
+              <div className='bg-red-500 inline-block m-3 rounded-lg p-1'>Rivision</div>
+              <h2 className='font-bold text-md text-center'>The Motor Vehicles (Amendment) Act, 2019</h2>
+            </div>
+
+          </div>
 
         </div>
 
 
         {/* right */}
-        <div className='border border-purple-600 bg-lime-300 w-[65%] h-1/2' >
-          <h1>hjello</h1>
+        <div className='w-[65%] sm:w-full mt-1 mb-1' >
+       <div>
+        <Image src="/ir.png" alt="" width={700} height={350} />
+       </div>
         </div>
       </div>
 
