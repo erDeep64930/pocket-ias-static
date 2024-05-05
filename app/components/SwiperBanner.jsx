@@ -6,7 +6,7 @@ const SwiperBanner = () => {
 
 
 
-<div className="background"></div>
+<div className="background mt-100 gap-10"></div>
     <div className="background-texture"></div>
 
     <section className="carousel">
